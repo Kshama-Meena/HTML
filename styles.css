@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:hsl(179, 50%, 49%); /* Light cyan background */
+    /* color: #004d40; Dark teal text color */
+}
+
+header {
+    background-color: #00796b; /* Teal header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* White links */
+    text-decoration: none;
+}
+
+.main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.responsive {
+    max-width: 100%; /* Make images responsive */
+    height: auto;
+    border-radius: 8px; /* Rounded corners */
+}
+
+footer {
+    background-color: #004d40; /* Dark teal footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

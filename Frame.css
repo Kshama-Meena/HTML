@@ -1,0 +1,26 @@
+
+.ul1
+{
+    /* background-color: black; */
+    display:flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    list-style: none;
+
+}
+
+img{
+   width:100vw ;
+   height: auto;
+   object-fit: cover;
+    
+}
+div{
+    text-align: center;
+}
+.contact{
+    text-align: center;
+    /* display: inline; */
+  
+
+}

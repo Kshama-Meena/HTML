@@ -1,0 +1,39 @@
+.outer{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+   /* display:  flex ;
+   justify-content:center ;
+    align-items: center; */
+    text-align: center;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    margin: auto;
+    /* transition: all 2s ease-in; */
+
+animation: colorAnimation ;
+animation-duration: 2s;
+animation-timing-function:ease-in;
+animation-delay: 1s;
+animation-iteration-count: 4;
+}
+div:hover{
+    /* transform: scale(2); */
+    /* transform: rotate(90deg); */
+    /* transform: translate(80px,90px); */
+    /* transform: skew(40deg); */
+}
+/* .inner{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(204, 0, 255);
+    
+} */
+ @keyframes colorAnimation {
+    from {background-color: aqua;}
+    to{
+        background-color: blueviolet;
+    }
+    
+ }
